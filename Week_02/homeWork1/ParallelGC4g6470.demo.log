@@ -1,0 +1,13 @@
+OpenJDK 64-Bit Server VM (25.242-b08) for windows-amd64 JRE (1.8.0_242-b08), built on Jan 18 2020 02:18:05 by "Administrator" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 8289272k(1875540k free), swap 20512836k(4275280k free)
+CommandLine flags: -XX:InitialHeapSize=4294967296 -XX:MaxHeapSize=4294967296 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2020-10-27T20:16:17.051+0800: 1.196: [GC (Allocation Failure) [PSYoungGen: 1048576K->174586K(1223168K)] 1048576K->220935K(4019712K), 0.0799431 secs] [Times: user=0.05 sys=0.22, real=0.08 secs] 
+Heap
+ PSYoungGen      total 1223168K, used 888377K [0x000000076ab00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1048576K, 68% used [0x000000076ab00000,0x000000079640fb88,0x00000007aab00000)
+  from space 174592K, 99% used [0x00000007aab00000,0x00000007b557ea18,0x00000007b5580000)
+  to   space 174592K, 0% used [0x00000007b5580000,0x00000007b5580000,0x00000007c0000000)
+ ParOldGen       total 2796544K, used 46349K [0x00000006c0000000, 0x000000076ab00000, 0x000000076ab00000)
+  object space 2796544K, 1% used [0x00000006c0000000,0x00000006c2d434b8,0x000000076ab00000)
+ Metaspace       used 2994K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 310K, capacity 386K, committed 512K, reserved 1048576K

@@ -1,0 +1,19 @@
+OpenJDK 64-Bit Server VM (25.242-b08) for windows-amd64 JRE (1.8.0_242-b08), built on Jan 18 2020 02:18:05 by "Administrator" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 8289272k(2214728k free), swap 19004328k(2742216k free)
+CommandLine flags: -XX:InitialHeapSize=1073741824 -XX:MaxHeapSize=1073741824 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+2020-10-27T20:03:10.112+0800: 0.393: [GC (Allocation Failure) 2020-10-27T20:03:10.112+0800: 0.393: [DefNew: 279616K->34944K(314560K), 0.0507006 secs] 279616K->87252K(1013632K), 0.0509046 secs] [Times: user=0.01 sys=0.03, real=0.05 secs] 
+2020-10-27T20:03:10.224+0800: 0.505: [GC (Allocation Failure) 2020-10-27T20:03:10.224+0800: 0.505: [DefNew: 314560K->34944K(314560K), 0.0735974 secs] 366868K->161969K(1013632K), 0.0736697 secs] [Times: user=0.02 sys=0.05, real=0.07 secs] 
+2020-10-27T20:03:10.358+0800: 0.640: [GC (Allocation Failure) 2020-10-27T20:03:10.358+0800: 0.640: [DefNew: 314560K->34943K(314560K), 0.0566582 secs] 441585K->245297K(1013632K), 0.0567402 secs] [Times: user=0.02 sys=0.05, real=0.06 secs] 
+2020-10-27T20:03:10.469+0800: 0.750: [GC (Allocation Failure) 2020-10-27T20:03:10.469+0800: 0.750: [DefNew: 314559K->34942K(314560K), 0.0620348 secs] 524913K->331092K(1013632K), 0.0621041 secs] [Times: user=0.03 sys=0.03, real=0.06 secs] 
+2020-10-27T20:03:10.590+0800: 0.872: [GC (Allocation Failure) 2020-10-27T20:03:10.590+0800: 0.872: [DefNew: 314018K->34941K(314560K), 0.0544705 secs] 610168K->406697K(1013632K), 0.0545658 secs] [Times: user=0.02 sys=0.05, real=0.06 secs] 
+2020-10-27T20:03:10.693+0800: 0.975: [GC (Allocation Failure) 2020-10-27T20:03:10.693+0800: 0.975: [DefNew: 313942K->34943K(314560K), 0.0578456 secs] 685698K->484960K(1013632K), 0.0579187 secs] [Times: user=0.02 sys=0.03, real=0.06 secs] 
+2020-10-27T20:03:10.827+0800: 1.108: [GC (Allocation Failure) 2020-10-27T20:03:10.827+0800: 1.108: [DefNew: 314559K->34943K(314560K), 0.0540797 secs] 764576K->562455K(1013632K), 0.0541609 secs] [Times: user=0.03 sys=0.03, real=0.05 secs] 
+Heap
+ def new generation   total 314560K, used 234813K [0x00000000c0000000, 0x00000000d5550000, 0x00000000d5550000)
+  eden space 279616K,  71% used [0x00000000c0000000, 0x00000000cc32f730, 0x00000000d1110000)
+  from space 34944K,  99% used [0x00000000d3330000, 0x00000000d554fee0, 0x00000000d5550000)
+  to   space 34944K,   0% used [0x00000000d1110000, 0x00000000d1110000, 0x00000000d3330000)
+ tenured generation   total 699072K, used 527511K [0x00000000d5550000, 0x0000000100000000, 0x0000000100000000)
+   the space 699072K,  75% used [0x00000000d5550000, 0x00000000f5875f68, 0x00000000f5876000, 0x0000000100000000)
+ Metaspace       used 2993K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 310K, capacity 386K, committed 512K, reserved 1048576K
