@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 	http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--1.使用构造注入方式装配User实例 -->
+    <bean id="user1" class="fish.User">
+        <constructor-arg index="0" value="郭鱼食" />
+        <constructor-arg index="1" value="777777" />
+        <constructor-arg index="2">
+            <list>
+                <value>"fish"</value>
+                <value>"guo"</value>
+            </list>
+        </constructor-arg>
+    </bean>
+    <!--2.使用设值注入方式装配User实例 -->
+    <bean id="user2" class="fish.User">
+        <property name="username" value="郭鱼食"></property>
+        <property name="password" value="654321"></property>
+        <!-- 注入list集合 -->
+        <property name="list">
+            <list>
+                <value>"guo"</value>
+                <value>"fish"</value>
+            </list>
+        </property>
+    </bean>
+</beans>
